@@ -1,5 +1,6 @@
 
 import './App.css';
+import About from './components/About';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Slider from './components/Slider';
@@ -11,6 +12,8 @@ function App() {
       <Navbar />
       <Slider />
       <Projects />
+      <About />
+      
     </div>
   );
 }

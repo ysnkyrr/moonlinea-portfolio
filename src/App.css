@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin-left: 12vh;
+  margin-right: 12vh;
 }
 
 .App-logo {
@@ -36,11 +38,4 @@
     transform: rotate(360deg);
   }
 }
-.projects{
-  width: auto;
-}
-.t1{
-  width: 30vh;
-  height: 20vh;
-  background-color: azure;
-}
+

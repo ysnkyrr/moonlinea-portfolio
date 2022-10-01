@@ -5,13 +5,14 @@ function Navbar() {
         <div className="Navbar">
 
             <div className="nav-bar">
-                <div className='lg'><img src='/logo/moonlinea-logo-ai-açık.png'></img></div>
-                <a href="#" className='nav-item'>Anasayfa</a>
-                <a href="#" className='nav-item'>Hakkımda</a>
-                <a href="#" className='nav-item'>İletişim</a>
+                <div className='lg'><img src='/logo/moonlinea-logo-ai-koyu.png'></img></div>
+                <a href="#" className='nav-item'>HOME</a>
+                <a href="#" className='nav-item'>ABOUT ME</a>
+                <a href="#" className='nav-item'>PORTFOLIO</a>
+                <a href="#" className='nav-item'>CONTACT</a>
             </div>
         </div>
-        
+
     );
 }
 
