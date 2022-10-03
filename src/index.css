@@ -15,7 +15,8 @@ body {
 
 .nav-bar {
   margin: 1vh;
-  height: 12vh;
+  margin-left: 12vh;
+  margin-right: 12vh;
 
   display: flex;
   align-items: center;
@@ -42,11 +43,13 @@ a {
   font-size: 0.9rem;
 }
 .slider {
+  padding-left: 13vh;
+
   height: 50vh;
   background-color: #232323;
   border-radius: 10px;
   margin: 15vh 1vh 0;
-  padding-left: 1%;
+
   padding-top: 15%;
 }
 .grey {
@@ -67,19 +70,24 @@ a {
   background-color: rgb(243, 118, 91);
   border-radius: 1.5px;
 }
-.about{
-  margin-left:34%;
+.about {
+  background-color: #1f1f1f;
+  width: 100%;
+
   margin-top: 20vh;
   height: 80vh;
   padding: 0;
-  position:absolute;
-  
   
 }
-.o1{
-  font-size: 4rem;
+.oppa1 {
+  font-size: 6rem;
   opacity: 20%;
+  font-weight: 800;
   
-  
-  
+}
+.oppa2 {
+  font-size: 2rem;
+  color: rgb(243, 118, 91);
+  margin-top: -11vh;
+  font-weight: 700;
 }
