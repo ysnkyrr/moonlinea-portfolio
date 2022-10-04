@@ -8,6 +8,7 @@ function Navbar() {
                 <div className='lg'><img src='/logo/moonlinea-logo-ai-koyu.png'></img></div>
                 <a href="#" className='nav-item'>HOME</a>
                 <a href="#" className='nav-item'>ABOUT ME</a>
+                <a href="#" className='nav-item'>SKILLS</a>
                 <a href="#" className='nav-item'>PORTFOLIO</a>
                 <a href="#" className='nav-item'>CONTACT</a>
             </div>

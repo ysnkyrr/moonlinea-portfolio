@@ -15,9 +15,27 @@ export default function About() {
         <div className='text'>
           <div className='tı1'><p className='pı1'> My name is </p> <p className='pı2'>Aylin KARADAVUT</p></div>
           <div className='tı3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem sunt et culpa. Dicta id minus ducimus sed. Soluta explicabo facere voluptatem inventore natus iusto eius iste repellendus perferendis? Possimus tempore veritatis, omnis ducimus tempora ad id illum exercitationem consectetur, dicta ipsa, dolore reprehenderit soluta. Fuga laborum pariatur in corrupti voluptatem odio, enim tenetur quas dignissimos labore error, blanditiis, accusantium similique aut quia beatae ipsa esse aliquid consequuntur asperiores facere.</div>
+          <div className='ev1'>
+            <div className='name'>Name <p className='g1'>Aylin Karadavut</p></div>
+            <div className='phone'>Phone <p className='g1'>05059790658</p></div>
+          </div>
+          <div className='ev2'>
+            <div className='country'>Country <p className='g1'>Ankara</p></div>
+            <div className='mail'>Email <p className='g1'>ysnkyr@gmail.com</p></div>
+          </div>
         </div>
 
+
       </div>
+      <div className='edu'>Education
+        <p className='g1'>Hacettepe Üniversitesi Web Tasarım</p>
+        <div className='icons'>
+          <img src="https://img.icons8.com/material-outlined/24/000000/facebook-new.png" />
+          <img src="https://img.icons8.com/material-outlined/24/000000/twitter.png" />
+          <img src="https://img.icons8.com/material-outlined/24/000000/instagram-new--v1.png" />
+        </div>
+      </div>
+
 
 
     </div>

@@ -46,22 +46,21 @@ a {
 .slider {
   padding-left: 13vh;
 
-  height: 50vh;
+  height: 50%;
   background-color: #232323;
   border-radius: 10px;
-  margin: 15vh 1vh 0;
-  
 
   padding-top: 15%;
 }
-.ds1{
-  font-size: 20rem;
-  margin-top: -25rem;
-  margin-left: -10rem;
-  transform:rotate(-20deg) ;
+.ds1 {
+  font-size: 40vh;
+  width: 90%;
+  height: 30%;
+
+  transform: rotate(-20deg);
   opacity: 0.2;
-  color:#ffffff ;
-  position:relative
+  color: #ffffff;
+  position: relative;
 }
 .grey {
   font-size: 3rem;
@@ -80,21 +79,20 @@ a {
   text-align: right;
   background-color: rgb(155, 189, 208);
   border-radius: 1.5px;
-  
 }
 .about {
   background-color: #1f1f1f;
   width: 100%;
-
-  margin-top: 20vh;
-  height: 80vh;
-  padding: 0;
+  height: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  align-items: center;
 }
 .oppa1 {
   font-size: 6rem;
   opacity: 20%;
   font-weight: 800;
-  color:#ffffff
+  color: #ffffff;
 }
 .oppa2 {
   font-size: 2rem;
@@ -107,49 +105,240 @@ a {
   flex-direction: row;
 }
 .pictures {
+  width: 30%;
   margin-left: 12vh;
+  margin-right: 12vh;
 }
 .pic1 {
-  width: 20rem;
-  height: 15rem;
-  margin-top: 4rem;
+  width: 80%;
+  height: 70%;
+  margin-top: 19%;
+  padding-left: 3%;
   position: relative;
   z-index: 3;
+  object-fit: fill;
 }
 .pic2 {
-  width: 20rem;
-  margin-top: -14rem;
-
-  height: 15rem;
-  margin-left: 1rem;
-  position: relative;
+  width: 80%;
+  margin-top: -60%;
+  margin-left: 5%;
+  height: 70%;
   border: 9px;
   border-color: rgb(155, 189, 208);
   border-style: solid;
   z-index: 1;
 }
-.text{
+.text {
   padding-top: 3.5rem;
-  padding-left: 9rem;
+  width: 50%;
+  margin-inline: auto;
 }
-.tı1{
+.tı1 {
   display: flex;
   flex-direction: row;
   font-size: large;
-  
 }
-.pı1{
+.pı1 {
   margin-left: 2px;
-  color:whitesmoke ;
+  color: whitesmoke;
 }
-.pı2{
+.pı2 {
   margin-left: 1rem;
   color: rgb(155, 189, 208);
 }
-.tı3{
-  width: 30rem;
+.tı3 {
+  width: 100%;
   margin-top: 10px;
-  margin-left: 3px;
-  color:whitesmoke ;
+  padding-right: 5%;
+  color: whitesmoke;
   text-align: justify;
+}
+.skills {
+  width: 100%;
+  height: 40rem;
+}
+.ev1 {
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.ev2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 5%;
+}
+.name,
+.phone,
+.country,
+.mail,
+.edu {
+  color: rgb(155, 189, 208);
+}
+.g1 {
+  color: whitesmoke;
+}
+.mail {
+  margin-left: 6%;
+}
+.edu {
+  padding: 5%;
+  margin-left: 40%;
+}
+.icons {
+  margin-top: 2%;
+  margin-left: 45%;
+  display: flex;
+  width: 5%;
+}
+.con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 2%;
+  width: 100%;
+  height: 60%;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  width: 40%;
+  height: 90%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+  width: 40%;
+  height: 90%;
+}
+.item {
+  margin-top: 15%;
+  width: 80%;
+  height: 2%;
+  background-color: beige;
+  text-align: justify;
+}
+.b {
+  padding-left: 25%;
+  color: rgb(155, 189, 208);
+}
+progress {
+  border-radius: 2px;
+}
+progress::-webkit-progress-bar {
+  background-color: beige;
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background-color: rgb(155, 189, 208);
+  border-radius: 7px;
+}
+.portfolio {
+  width: 100%;
+  height: 40rem;
+  background-color: #1f1f1f;
+}
+.tp1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+
+  width: 100%;
+  height: 40%;
+}
+.tp2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+}
+.box {
+  width: 15%;
+  height: 70%;
+
+  border: 9px;
+  border-color: rgb(155, 189, 208);
+  border-style: solid;
+  margin-left: 5%;
+}
+.services {
+  width: 100%;
+  height: 100vh;
+  background-color: #232323;
+}
+.sr1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+
+  width: 100%;
+  height: 40%;
+}
+.sr2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+
+  width: 100%;
+  height: 40%;
+}
+.box1 {
+  padding: 2%;
+  width: 20%;
+  height: 80%;
+  align-items: center;
+  border: 9px;
+  border-color: rgb(155, 189, 208);
+  border-style: solid;
+  margin-left: 5%;
+}
+.i1 {
+  height: 25%;
+  width: 20%;
+}
+.y1 {
+  padding: 2%;
+  color: whitesmoke;
+  font-size: large;
+}
+.y2 {
+  padding: 2%;
+  color: aliceblue;
+  font-weight: 200;
+}
+.footer {
+  margin-top: 10%;
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(155, 189, 208);
+}
+.oppa3 {
+  
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+.ppp{
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 25%;
+}
+.ph{
+  width: 20%;
+  height: 70%;
+}
+.send{
+  margin-left: 43%;
+  justify-content: center;
+  width: 15%;
+  height: 10%;
+  background-color: whitesmoke ;
+  color: rgb(155, 189, 208);
+  align-items: center;
+  padding-top: 1vh;
 }
