@@ -110,19 +110,19 @@ a {
   margin-right: 12vh;
 }
 .pic1 {
-  width: 80%;
-  height: 70%;
-  margin-top: 19%;
+  width: 50vh;
+  height: 40vh;
+  margin-top: 20%;
   padding-left: 3%;
   position: relative;
   z-index: 3;
   object-fit: fill;
 }
 .pic2 {
-  width: 80%;
-  margin-top: -60%;
-  margin-left: 5%;
-  height: 70%;
+  width: 50vh;
+  margin-top: -57%;
+  margin-left: 3%;
+  height: 38vh;
   border: 9px;
   border-color: rgb(155, 189, 208);
   border-style: solid;
@@ -158,7 +158,8 @@ a {
   height: 40rem;
 }
 .ev1 {
-  padding: 2%;
+  padding: 3%;
+
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -169,6 +170,7 @@ a {
   flex-direction: row;
   justify-content: space-around;
   padding-left: 5%;
+  align-items: center;
 }
 .name,
 .phone,
@@ -177,6 +179,13 @@ a {
 .edu {
   color: rgb(155, 189, 208);
 }
+.name {
+  margin-right: 10%;
+}
+/* .phone{
+  padding-left:2%;
+} */
+
 .g1 {
   color: whitesmoke;
 }
@@ -266,6 +275,7 @@ progress::-webkit-progress-value {
   border-style: solid;
   margin-left: 5%;
 }
+
 .services {
   width: 100%;
   height: 100vh;
@@ -275,7 +285,6 @@ progress::-webkit-progress-value {
   display: flex;
   justify-content: center;
   margin-top: 5%;
-
   width: 100%;
   height: 40%;
 }
@@ -283,7 +292,6 @@ progress::-webkit-progress-value {
   display: flex;
   justify-content: center;
   margin-top: 5%;
-
   width: 100%;
   height: 40%;
 }
@@ -318,27 +326,133 @@ progress::-webkit-progress-value {
   background-color: rgb(155, 189, 208);
 }
 .oppa3 {
-  
   font-size: 3rem;
   font-weight: 800;
   color: #ffffff;
 }
-.ppp{
+.ppp {
   display: flex;
   justify-content: space-between;
   padding: 5% 25%;
 }
-.ph{
+.ph {
   width: 20%;
   height: 70%;
 }
-.send{
+.send {
   margin-left: 43%;
   justify-content: center;
   width: 15%;
   height: 10%;
-  background-color: whitesmoke ;
+  background-color: whitesmoke;
   color: rgb(155, 189, 208);
   align-items: center;
   padding-top: 1vh;
 }
+@media only screen and (max-width: 992px) {
+  .pic1 {
+    width: 25vh;
+    height: 25vh;
+    margin-top: 35%;
+  }
+  .pic2 {
+    width: 25vh;
+    height: 25vh;
+    margin-top: -95%;
+    margin-left: 2vh;
+  }
+  .box {
+    width: 25%;
+  }
+  .box1 {
+    width: 35%;
+    height: 100%;
+    margin-right: 2%;
+  }
+  .name {
+    margin-left: -5%;
+  }
+  .send {
+    justify-content: center;
+    margin-left: 35%;
+    width: 30%;
+  }
+  .services {
+    margin-bottom: 35%;
+  }
+  .ppp {
+    padding-bottom: 10%;
+  }
+  .ph {
+    width: 50%;
+  }
+  .edu {
+    margin-left: 52%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .services{
+    height: 100vh;
+  }
+  
+  .y1 {
+    font-size: small;
+  }
+  .y2 {
+    font-size: smaller;
+  }
+  .pic1 {
+    width: 90%;
+    height: 25%;
+    margin-top: 45%;
+  }
+  .pic2 {
+    width: 90%;
+    height: 25%;
+    margin-top: -130%;
+    margin-left: 2vh;
+  }
+  .nav-item{
+    width: 22%;
+    
+  }
+  .nav-bar{
+    padding: 0;
+    margin: 3% 2%;
+  }
+  .footer{
+    margin: 0;
+    padding: 0;
+  }
+  .portfolio{
+    margin: 0;
+    padding: 0;
+  }
+  .projects{
+    margin: 0;
+    padding: 0;
+  }
+  .services{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10%;
+  }
+  .skills{
+    margin: 0;
+    padding: 0;
+    margin-bottom: -35%;
+  }
+  .about{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10%;
+  }
+  .slider{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+}
+#more {display: none;}
