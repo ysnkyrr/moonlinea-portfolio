@@ -90,7 +90,8 @@ a {
 }
 .oppa1 {
   font-size: 6rem;
-  opacity: 20%;
+  opacity: 3%;
+
   font-weight: 800;
   color: #ffffff;
 }
@@ -348,6 +349,12 @@ progress::-webkit-progress-value {
   color: rgb(155, 189, 208);
   align-items: center;
   padding-top: 1vh;
+  
+}
+.btn{
+  border: 0;
+  background: #1f1f1f;
+  color: whitesmoke;
 }
 @media only screen and (max-width: 992px) {
   .pic1 {
@@ -389,70 +396,171 @@ progress::-webkit-progress-value {
   .edu {
     margin-left: 52%;
   }
+  .nav-item {
+    padding: 2%;
+    width: 20%;
+    font-size: 10px;
+  }
+
+  .lg {
+    margin-right: 0;
+  }
 }
-@media only screen and (max-width: 600px) {
-  .services{
+@media only screen and (max-width: 500px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .services {
     height: 100vh;
   }
-  
+
   .y1 {
-    font-size: small;
+    font-size: 100%;
+  }
+  .i1 {
+    height: 10%;
   }
   .y2 {
-    font-size: smaller;
+    font-size: 70%;
   }
   .pic1 {
-    width: 90%;
-    height: 25%;
-    margin-top: 45%;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 95%;
   }
   .pic2 {
-    width: 90%;
-    height: 25%;
-    margin-top: -130%;
-    margin-left: 2vh;
+    width: 10rem;
+    height: 10rem;
+    margin-top: -105%;
+    margin-left: 1.5vh;
   }
-  .nav-item{
+  .nav-item {
     width: 22%;
-    
   }
-  .nav-bar{
+  .nav-bar {
     padding: 0;
     margin: 3% 2%;
   }
-  .footer{
+  .footer {
     margin: 0;
     padding: 0;
   }
-  .portfolio{
+  .portfolio {
     margin: 0;
     padding: 0;
   }
-  .projects{
+  .projects {
     margin: 0;
     padding: 0;
   }
-  .services{
+  .services {
     margin: 0;
     padding: 0;
     margin-bottom: 10%;
   }
-  .skills{
+  .skills {
     margin: 0;
     padding: 0;
     margin-bottom: -35%;
   }
-  .about{
+  .about {
     margin: 0;
     padding: 0;
     margin-bottom: 10%;
   }
-  .slider{
+  .slider {
     margin: 0;
     padding: 0;
     margin-bottom: 10%;
     margin-top: 5%;
     margin-left: 5%;
   }
+  .box1 {
+    height: 75%;
+  }
+
+  .nav-item {
+    font-size: 10px;
+  }
+  .b {
+    text-align: start;
+    padding: 0;
+    font-size: 2vh;
+  }
+  .grey {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 1rem;
+  }
+  .white {
+    font-size: 2rem;
+  }
+  .pictures {
+    width: 80%;
+    height: 100%;
+
+    align-items: center;
+  }
+  .pic1 {
+    width: 30%;
+    height: 30%;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    margin-left: 6rem;
+  }
+  .pic2 {
+    width: 30%;
+    height: 6rem;
+    margin: 0;
+    padding: 0;
+    margin-left: 6rem;
+    margin-top: -6rem;
+  }
+  .about {
+    align-items: center;
+  }
+  .tı3 {
+    font-size: 0.7rem;
+  }
+  .pı1,
+  .pı2 {
+    font-size: 1rem;
+  }
+  .ev1,
+  .ev2,
+  .edu {
+    font-size: 0.8rem;
+  }
+  .edu {
+    margin: 0;
+  }
+  .pic {
+    padding-top: 3%;
+  }
+  .page {
+    display: flex;
+    flex-direction: column;
+  }
+  .ev1 {
+    flex-direction: column;
+    
+    
+    
+    margin: 0;
+    padding: 0;
+  }
+  .name,
+  .phone,
+  .country,
+  .mail {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
 }
-#more {display: none;}
+#more {
+  display: none;
+}

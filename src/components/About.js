@@ -1,4 +1,4 @@
-import React,{useRef} from 'react'
+import React, { useRef } from 'react'
 
 export default function About() {
   const dotsRef = useRef(null)
@@ -23,20 +23,20 @@ export default function About() {
       </div>
       <div className='page'>
         <div className='pictures'>
-          <div className='pic1'><img src="/logo/p1.jpg" /></div>
+          <div className='pic1'><img className='pp' src="/logo/p1.jpg" /></div>
           <div className='pic2'></div>
         </div>
         <div className='text'>
           <div className='tı1'><p className='pı1'> My name is </p> <p className='pı2'>Aylin KARADAVUT</p></div>
-          <div className='tı3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem sunt et culpa. Dicta id minus ducimus sed. Soluta explicabo facere voluptatem inventore natus iusto eius iste repellendus perferendis?<span ref={dotsRef}>...</span><span ref={moreRef}> Possimus tempore veritatis, omnis ducimus tempora ad id illum exercitationem consectetur, dicta ipsa, dolore reprehenderit soluta. Fuga laborum pariatur in corrupti voluptatem odio, enim tenetur quas dignissimos labore error, blanditiis, accusantium similique aut quia beatae ipsa esse aliquid consequuntur asperiores facere.</span></div><button onClick={myFunction} ref={myBtnRef}>Read more</button>
+          <div className='tı3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem sunt et culpa. Dicta id minus ducimus sed. Soluta explicabo facere voluptatem inventore natus iusto eius iste repellendus perferendis?<span ref={dotsRef}>...</span><span ref={moreRef}> Possimus tempore veritatis, omnis ducimus tempora ad id illum exercitationem consectetur, dicta ipsa, dolore reprehenderit soluta. Fuga laborum pariatur in corrupti voluptatem odio, enim tenetur quas dignissimos labore error, blanditiis, accusantium similique aut quia beatae ipsa esse aliquid consequuntur asperiores facere.</span></div><button className='btn' onClick={myFunction} ref={myBtnRef}>...Read more</button>
           <div className='ev1'>
             <div className='name'>Name <p className='g1'>Aylin Karadavut</p></div>
             <div className='phone'>Phone <p className='g1'>05059790658</p></div>
-          </div>
-          <div className='ev2'>
             <div className='country'>Country <p className='g1'>Ankara</p></div>
             <div className='mail'>Email <p className='g1'>ysnkyr@gmail.com</p></div>
+
           </div>
+
         </div>
 
 
