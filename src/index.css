@@ -349,9 +349,8 @@ progress::-webkit-progress-value {
   color: rgb(155, 189, 208);
   align-items: center;
   padding-top: 1vh;
-  
 }
-.btn{
+.btn {
   border: 0;
   background: #1f1f1f;
   color: whitesmoke;
@@ -545,9 +544,7 @@ progress::-webkit-progress-value {
   }
   .ev1 {
     flex-direction: column;
-    
-    
-    
+
     margin: 0;
     padding: 0;
   }
@@ -558,8 +555,6 @@ progress::-webkit-progress-value {
     margin: 0;
     padding: 0;
   }
-  
-  
 }
 #more {
   display: none;
