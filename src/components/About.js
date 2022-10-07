@@ -28,7 +28,7 @@ export default function About() {
         </div>
         <div className='text'>
           <div className='tı1'><p className='pı1'> My name is </p> <p className='pı2'>Aylin KARADAVUT</p></div>
-          <div className='tı3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem sunt et culpa. Dicta id minus ducimus sed. Soluta explicabo facere voluptatem inventore natus iusto eius iste repellendus perferendis?<span ref={dotsRef}>...</span><span ref={moreRef}> Possimus tempore veritatis, omnis ducimus tempora ad id illum exercitationem consectetur, dicta ipsa, dolore reprehenderit soluta. Fuga laborum pariatur in corrupti voluptatem odio, enim tenetur quas dignissimos labore error, blanditiis, accusantium similique aut quia beatae ipsa esse aliquid consequuntur asperiores facere.</span></div><button className='btn' onClick={myFunction} ref={myBtnRef}>...Read more</button>
+          <div className='tı3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem sunt et culpa. Dicta id minus ducimus sed. Soluta explicabo facere voluptatem inventore natus iusto eius iste repellendus perferendis?<span ref={dotsRef}>...</span><span ref={moreRef}> Possimus tempore veritatis, omnis ducimus tempora ad id illum exercitationem consectetur, dicta ipsa, dolore reprehenderit soluta. Fuga laborum pariatur in corrupti voluptatem odio, enim tenetur quas dignissimos labore error, blanditiis, accusantium similique aut quia beatae ipsa esse aliquid consequuntur asperiores facere.</span></div><button className='btn' onClick={myFunction} ref={myBtnRef}>Read more...</button>
           <div className='ev1'>
             <div className='name'>Name <p className='g1'>Aylin Karadavut</p></div>
             <div className='phone'>Phone <p className='g1'>05059790658</p></div>
@@ -44,9 +44,9 @@ export default function About() {
       <div className='edu'>Education
         <p className='g1'>Hacettepe Üniversitesi Web Tasarım</p>
         <div className='icons'>
-          <img src="https://img.icons8.com/material-outlined/24/000000/facebook-new.png" />
-          <img src="https://img.icons8.com/material-outlined/24/000000/twitter.png" />
-          <img src="https://img.icons8.com/material-outlined/24/000000/instagram-new--v1.png" />
+          <img className='icons-bg' src="/logo/facebook.svg" />
+          <img src="/logo/twitter.svg" />
+          <img  src="/logo/instagram.svg" />
         </div>
       </div>
 

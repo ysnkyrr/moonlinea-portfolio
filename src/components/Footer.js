@@ -9,7 +9,7 @@ export default function Footer() {
                     <p className='y1'>Call Us On</p>
                     <p className='y2'>05059790658</p>
                 </div>
-                <div className='ph'><img className='i1' src="https://img.icons8.com/ios/50/000000/phone.png" />
+                <div className='ph'><img className='i1' src="https://img.icons8.com/ios/50/000000/apple-mail.png" />
                     <p className='y1'>Email Us At</p>
                     <p className='y2'>ysnkyr06@gmail.com</p>
                 </div>

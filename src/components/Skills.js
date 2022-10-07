@@ -23,7 +23,7 @@ export default function Skills() {
           <p className='b'>Adobe XD</p>
           <progress className='item' value="84" max="100"></progress>
           <p className='b'>Adobe Premiere Pro</p>
-          <progress className='item' value="60" max="100"></progress>
+          <progress className='item' value="99" max="100"></progress>
           <p className='b'>Web Desing</p>
 
         </div>

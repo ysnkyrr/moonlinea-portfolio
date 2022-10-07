@@ -11,14 +11,11 @@ export default function Portfolio() {
                 <div className='box'> </div>
                 <div className='box'> </div>
                 <div className='box'> </div>
-
-            </div>
-            <div className='tp2'>
                 <div className='box'> </div>
                 <div className='box'> </div>
-                
 
             </div>
+            
 
 
         </div>
