@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
@@ -10,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #232323;
 }
-.icons-bg{
+.icons-bg {
   color: rgb(155, 189, 208);
 }
 .nav-bar {
@@ -111,24 +112,16 @@ a {
   margin-right: 12vh;
 }
 .pic1 {
-  width: 50vh;
-  height: 40vh;
+  width: auto;
+  height: auto;
   margin-top: 20%;
-  padding-left: 3%;
+
   position: relative;
   z-index: 3;
   object-fit: fill;
+  border: 10px inset rgb(155, 189, 208);
 }
-.pic2 {
-  width: 50vh;
-  margin-top: -57%;
-  margin-left: 3%;
-  height: 38vh;
-  border: 9px;
-  border-color: rgb(155, 189, 208);
-  border-style: solid;
-  z-index: 1;
-}
+
 .text {
   padding-top: 3.5rem;
   width: 50%;
@@ -195,14 +188,13 @@ a {
 }
 .edu {
   padding: 5%;
-  margin-left: 40%;
+  margin-left: 0;
 }
 .icons {
   margin-top: 2%;
   margin-left: 45%;
   display: flex;
   width: 10%;
-  ;
 }
 .con {
   display: flex;
@@ -269,7 +261,7 @@ progress::-webkit-progress-value {
 
 .box {
   width: 15%;
-  height: 15rem;
+  height: 5%;
   margin: 0;
   border: 9px;
   border-color: rgb(155, 189, 208);
@@ -311,8 +303,8 @@ progress::-webkit-progress-value {
 }
 
 .i1 {
-  height: 25%;
-  width: 20%;
+  height: auto;
+  width: auto;
 }
 .y1 {
   padding: 2%;
@@ -327,7 +319,7 @@ progress::-webkit-progress-value {
 .footer {
   margin-top: 10%;
   width: 100%;
-  height: 60vh;
+  height: 100%;
   background-color: rgb(155, 189, 208);
 }
 .oppa3 {
@@ -345,101 +337,52 @@ progress::-webkit-progress-value {
   height: 70%;
 }
 .send {
-  margin-left: 43%;
-  justify-content: center;
-  width: 15%;
-  height: 10%;
+  margin-left: 40%;
+  margin-bottom: 2rem;
+  width: 20%;
+  height: auto;
   background-color: whitesmoke;
   color: rgb(155, 189, 208);
   border-radius: 6px;
-  align-items: center;
   padding-top: 1vh;
+  padding: 1rem;
 }
 .btn {
-  border: 3px,solid;
+  border: 3px, solid;
   border-radius: 3px;
   border-color: rgb(155, 189, 208);
   background: #1f1f1f;
   color: whitesmoke;
 }
-@media only screen and (max-width: 992px) {
-  .pic1 {
-    width: 25vh;
-    height: 25vh;
-    margin-top: 35%;
-  }
-  .pic2 {
-    width: 25vh;
-    height: 25vh;
-    margin-top: -95%;
-    margin-left: 2vh;
-  }
-  .box {
-    width: 25%;
-  }
-  .box1 {
-    width: 35%;
-    height: 100%;
-    margin-right: 2%;
-  }
-  .name {
-    margin-left: -5%;
+
+@media (max-width: 900px) {
+  .ppp {
+    display: flex;
+    justify-content: space-between;
   }
   .send {
-    justify-content: center;
-    margin-left: 35%;
-    width: 30%;
+    margin-left: 10rem;
   }
   .services {
-    margin-bottom: 35%;
+    height: auto;
   }
-  .ppp {
-    padding-bottom: 10%;
+  .i1 {
+    width: 1rem;
+    height: 1rem;
   }
   .ph {
-    width: 50%;
-  }
-  .edu {
-    margin-left: 52%;
-  }
-  .nav-item {
-    padding: 2%;
-    width: 20%;
-    font-size: 10px;
-  }
-
-  .lg {
-    margin-right: 0;
-  }
-}
-@media only screen and (max-width: 500px) {
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  .services {
-    height: 100vh;
+    width: auto;
+    align-items: center;
   }
 
   .y1 {
-    font-size: 100%;
+    font-size: 70%;
   }
   .i1 {
     height: 10%;
   }
   .y2 {
     font-size: 70%;
-  }
-  .pic1 {
-    width: 10rem;
-    height: 10rem;
-    margin-top: 95%;
-  }
-  .pic2 {
-    width: 10rem;
-    height: 10rem;
-    margin-top: -105%;
-    margin-left: 1.5vh;
   }
   .nav-item {
     width: 22%;
@@ -448,14 +391,7 @@ progress::-webkit-progress-value {
     padding: 0;
     margin: 3% 2%;
   }
-  .footer {
-    margin: 0;
-    padding: 0;
-  }
-  .portfolio {
-    margin: 0;
-    padding: 0;
-  }
+
   .projects {
     margin: 0;
     padding: 0;
@@ -478,9 +414,9 @@ progress::-webkit-progress-value {
     margin-top: 5%;
     margin-left: 5%;
   }
-  .box1 {
+  /* .box1 {
     height: 75%;
-  }
+  } */
 
   .nav-item {
     font-size: 10px;
@@ -501,25 +437,19 @@ progress::-webkit-progress-value {
   .pictures {
     width: 80%;
     height: 100%;
-
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
   .pic1 {
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: auto;
     margin: 0;
+    margin-top: 5%;
     padding: 0;
-    margin-top: 2rem;
-    margin-left: 6rem;
+    border: 5px inset rgb(155, 189, 208);
   }
-  .pic2 {
-    width: 30%;
-    height: 6rem;
-    margin: 0;
-    padding: 0;
-    margin-left: 6rem;
-    margin-top: -6rem;
-  }
+
   .about {
     align-items: center;
   }
@@ -535,9 +465,7 @@ progress::-webkit-progress-value {
   .edu {
     font-size: 0.8rem;
   }
-  .edu {
-    margin: 0;
-  }
+
   .pic {
     padding-top: 3%;
   }
@@ -569,11 +497,14 @@ progress::-webkit-progress-value {
   }
   .box1 {
     margin: 5%;
-    width: 10rem;
-    height: 10rem;
+    width: 7rem;
+    height: auto;
+  }
+  .icons-bg {
+    margin-left: -40%;
   }
   .footer {
-    width: 100%;
+    width: auto;
     height: 16rem;
   }
   .tp1 {
@@ -582,19 +513,15 @@ progress::-webkit-progress-value {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 5%;
-
     width: 100%;
     height: 100%;
   }
   .box {
     padding: 0;
     margin: 0;
-    width: 10rem;
-    height: 10rem;
+    width: 7rem;
+    height: 7rem;
     margin: 2rem;
-  }
-  .portfolio {
-    height: auto;
   }
 }
 #more {

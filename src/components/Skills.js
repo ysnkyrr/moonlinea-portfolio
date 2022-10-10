@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function Skills() {
   return (
-    <div className='skills'>
-      <div className='title'>
+    <div className='skills' id='skills' >
+
+      <div className='title' >
         <div className='oppa1'>Skills</div>
         <div className='oppa2'>Skills</div>
       </div>

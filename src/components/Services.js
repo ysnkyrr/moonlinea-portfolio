@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Services() {
     return (
-        <div className='services'>
+        <div className='services' id='services'>
             <div className='title'>
                 <div className='oppa1'>Services</div>
                 <div className='oppa2'>Services</div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div className='footer'>
+        <div className='footer' id='contact'>
             <div className='oppa3'>Contact Me</div>
             <div className='ppp'>
                 <div className='ph'><img className='i1' src="https://img.icons8.com/ios/50/000000/phone.png" />
